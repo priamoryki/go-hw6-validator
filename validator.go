@@ -1,4 +1,4 @@
-package hw6validator
+package validator
 
 import (
 	"github.com/pkg/errors"

@@ -1,4 +1,4 @@
-module hw6validator
+module github.com/priamoryki/validator
 
 go 1.19
 
