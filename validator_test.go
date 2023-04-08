@@ -266,7 +266,7 @@ func TestValidate(t *testing.T) {
 						LenZ  string `validate:"len:0"`
 						InInt int    `validate:"in:20,25,30"`
 						InNeg int    `validate:"in:-20,-25,-30"`
-						InStr string `validate:"in:foo,bar;len:3"`
+						InStr string `validate:"in:foo,bar"`
 					}
 					MinInt    int    `validate:"min:10"`
 					MinIntNeg int    `validate:"min:-10"`
@@ -281,7 +281,7 @@ func TestValidate(t *testing.T) {
 						LenZ  string `validate:"len:0"`
 						InInt int    `validate:"in:20,25,30"`
 						InNeg int    `validate:"in:-20,-25,-30"`
-						InStr string `validate:"in:foo,bar;len:3"`
+						InStr string `validate:"in:foo,bar"`
 					}{
 						Len:   "abcdefghjklmopqrstvu",
 						LenZ:  "",
